@@ -6,7 +6,10 @@ import SignupPage from "./pages/SignupPage";
 
 import * as ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+<<<<<<< HEAD
 import CartPage from "./pages/CartPage";
+=======
+>>>>>>> 9c4cdfd (Login Signup HomePage and NavBar Added)
 
 const router = createBrowserRouter([
   {
@@ -21,10 +24,13 @@ const router = createBrowserRouter([
     path: "/Signup",
     element: <SignupPage />,
   },
+<<<<<<< HEAD
   {
     path: "/Cart",
     element: <CartPage />,
   },
+=======
+>>>>>>> 9c4cdfd (Login Signup HomePage and NavBar Added)
 ]);
 
 function App() {
