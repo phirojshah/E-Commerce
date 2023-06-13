@@ -304,7 +304,7 @@ export default function ProductDetail() {
                 </div>
               </div>
 
-              <div className="mt-10">
+              <div className="mt-10  right-96">
                 <h3 className="text-sm font-medium text-gray-900">
                   Highlights
                 </h3>
@@ -313,7 +313,7 @@ export default function ProductDetail() {
                   <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
                     {highlights &&
                       highlights.map((highlight) => (
-                        <li key={highlight} className="text-gray-400">
+                        <li key={highlight} className="text-gray-500">
                           <span className="text-gray-600">{highlight}</span>
                         </li>
                       ))}
