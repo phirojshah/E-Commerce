@@ -2339,6 +2339,11 @@
       "email": "aditya8877123@gmail.com",
       "password": "Aditya123",
       "id": 1
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "Aditya123",
+      "id": 2
     }
   ]
 }
